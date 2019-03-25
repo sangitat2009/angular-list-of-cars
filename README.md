@@ -8,7 +8,7 @@ Run `npm start or ng serve` for a dev server. Navigate to `http://localhost:4200
 
 ## Issues
 
-- I have written the code usign native javascript as at the moment I am anot familiar with tools like underscore.js
+- I have written the code usign native javascript as at the moment I am not familiar with tools like underscore.js
 
 
 
