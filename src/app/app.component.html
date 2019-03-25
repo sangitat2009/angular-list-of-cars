@@ -1,0 +1,19 @@
+
+<div style="text-align:center">
+  <h1>
+    List of Cars with models and the show attended, grouped by make alphabetically.
+  </h1>
+
+</div>
+<ul *ngFor="let car of carModelShowList ">
+  <li>
+    {{car.make}}
+    <div *ngFor="let models of car.modelShowList">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{models.model}}
+      <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{models.show}}
+    </div>
+  </li>
+</ul>
+
+<router-outlet></router-outlet>
